@@ -1,0 +1,34 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Heavy model checkpoints
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# Compressed archives and submission zips
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# OS files
+.DS_Store
+Thumbs.db
